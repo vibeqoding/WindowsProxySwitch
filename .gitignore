@@ -1,0 +1,23 @@
+# .NET build artifacts
+bin/
+obj/
+*.pdb
+*.user
+*.suo
+
+# Compiled binaries (distributed via GitHub Releases)
+app/ProxySwitch.exe
+app/ProxySwitch.exe.config
+
+# Local shortcuts & personal proxy config
+*.lnk
+app/proxy.txt
+
+# Personal article draft
+Vibe Coding 入门 - 从一个 Windows 代理开关开始.md
+
+# OS & IDE
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
