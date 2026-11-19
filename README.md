@@ -77,3 +77,8 @@ flowchart LR
 `LanProxy` 通过 `INTERNET_OPTION_PER_CONNECTION_OPTION` 操作默认 LAN 连接。开启时根据预设地址更新服务器选项，开关切换只修改连接标志中的手动代理位。真实变更提交后，程序通知 WinINet 刷新并重新读取代理设置。若配置已满足本次操作，则直接返回读取结果。[WinINet 连接设置](https://learn.microsoft.com/windows/win32/wininet/setting-and-retrieving-internet-options)
 
 适用对象是遵循 Windows 手动代理设置的客户端。WinHTTP 服务、代理环境变量和应用内单独配置的代理都有各自的设置入口。窗口提示「成功」表示 Windows 设置已经确认，网络连通性可在实际使用代理的客户端中检查。[WinINet 的适用范围](https://learn.microsoft.com/windows/win32/wininet/about-wininet)
+
+## 参考与友情推荐
+
+- [WinINet 连接设置文档](https://learn.microsoft.com/windows/win32/wininet/setting-and-retrieving-internet-options) — Windows 默认 LAN 手动代理 API 参考
+- [PlcTools.cc](https://plctools.cc) — 专注工业现场与 PLC 调试的轻量实用工具集（本地直连、免登录）
